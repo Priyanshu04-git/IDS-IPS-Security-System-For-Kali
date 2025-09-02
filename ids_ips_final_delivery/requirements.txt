@@ -1,0 +1,70 @@
+# IDS/IPS System Requirements
+# Core Python Dependencies for Comprehensive Intrusion Detection and Prevention System
+
+# Core Processing Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine Learning and Data Analysis
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Network and Security Libraries
+scapy>=2.4.5
+cryptography>=3.4.0
+requests>=2.25.0
+
+# Web Framework and API
+flask>=2.0.0
+flask-cors>=3.0.0
+flask-sqlalchemy>=2.5.0
+
+# Database Support
+psycopg2-binary>=2.9.0  # PostgreSQL support (optional)
+
+# Logging and Monitoring
+python-json-logger>=2.0.0
+watchdog>=2.1.0
+
+# Report Generation
+reportlab>=3.6.0
+fpdf2>=2.5.0
+weasyprint>=56.0
+
+# Data Visualization
+plotly>=5.0.0
+dash>=2.0.0  # Optional for advanced dashboards
+
+# Email and Notifications
+email-validator>=1.1.0
+
+# Configuration Management
+pyyaml>=6.0
+configparser  # Built-in with Python
+
+# Utility Libraries
+python-dateutil>=2.8.0
+pytz>=2021.3
+click>=8.0.0
+
+# Development and Testing
+pytest>=6.2.0
+pytest-cov>=3.0.0
+black>=21.0.0
+flake8>=4.0.0
+
+# Optional: Advanced Features
+redis>=4.0.0  # For distributed deployments
+celery>=5.2.0  # For background task processing
+gunicorn>=20.1.0  # For production WSGI server
+
+# System Integration
+psutil>=5.8.0  # System monitoring
+netifaces>=0.11.0  # Network interface information
+
+# Security Enhancements
+bcrypt>=3.2.0
+jwt>=1.3.0
+
